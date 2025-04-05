@@ -96,24 +96,24 @@ Below, each domain is defined with a general description and a *template* for en
 
 ```mermaid
 graph TD
-    PS[Problem Space] --> RC[Reasoning Cycle (RC)<br>Explore Solution Space]
-    RC --> AR[Adversarial Refinement (AR)<br>Challenge]
-    RC --> EG[Evolutionary Growth (EG)<br>Evolve]
-    RC --> DI[Dialectic Inquiry (DI)<br>Question]
-    AR --> PSY[Panel Synthesis (PS)<br>Integrate]
-    EG --> PSY
-    DI --> PSY
-    AR --> CD[Constraint Dynamics (CD)<br>Adapt]
+    ProblemSpace[Problem Space] --> RC[Reasoning Cycle (RC): Explore]
+    RC --> AR[Adversarial Refinement (AR): Challenge]
+    RC --> EG[Evolutionary Growth (EG): Evolve]
+    RC --> DI[Dialectic Inquiry (DI): Question]
+    AR --> PS[Panel Synthesis (PS): Integrate]
+    EG --> PS
+    DI --> PS
+    AR --> CD[Constraint Dynamics (CD): Adapt]
     EG --> CD
     DI --> CD
-    PSY --> OS[Optimal Solution]
+    PS --> OS[Optimal Solution]
     CD --> OS
 
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
     classDef problem fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     classDef solution fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
 
-    class PS problem;
+    class ProblemSpace problem;
     class OS solution;
 ```
 
