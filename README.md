@@ -230,7 +230,7 @@ The primary advantage is guiding the LLM towards well-reasoned and validated sol
 
 ### Adversarial Refinement: Challenge (AR)
 
-**Description**: This domain enhances solution robustness by employing a process inspired by **[Markov Decision Process](https://en.wikipedia.org/wiki/Markov_decision_process) (MDP)** state transitions, it guides the LLM to generate a solution, rigorously critique it from an opposing viewpoint to identify weaknesses or edge cases, and then refine the solution based on that critique. It focuses on iterative improvement through structured critical analysis.
+**Description**: This domain enhances solution robustness by employing a process inspired by **Markov Decision Process (MDP)**[^5] state transitions, it guides the LLM to generate a solution, rigorously critique it from an opposing viewpoint to identify weaknesses or edge cases, and then refine the solution based on that critique. It focuses on iterative improvement through structured critical analysis.
 
 #### Prompt Template
 ```markdown
@@ -331,7 +331,7 @@ The primary advantage is fostering more robust and resilient solutions by forcin
 
 ### Evolutionary Growth: Evolve (EG)
 
-**Description**: This domain fosters solution development through iterative refinement and incremental enhancement, inspired by **[Evolutionary Algorithms](https://en.wikipedia.org/wiki/Evolutionary_algorithm)**. It guides the LLM to generate initial solution variants, evaluate their fitness, combine successful elements, and introduce targeted improvements over successive cycles, emphasizing gradual progress and adaptation.
+**Description**: This domain fosters solution development through iterative refinement and incremental enhancement, inspired by **Evolutionary Algorithms**[^6]. It guides the LLM to generate initial solution variants, evaluate their fitness, combine successful elements, and introduce targeted improvements over successive cycles, emphasizing gradual progress and adaptation.
 
 #### Prompt Template
 ```markdown
@@ -433,7 +433,7 @@ The primary advantage is encouraging exploration of diverse solution pathways an
 
 ### Dialectic Inquiry: Question (DI)
 
-**Description**: This domain utilizes a **[Socratic Method](https://en.wikipedia.org/wiki/Socratic_method)** approach to refine solutions and deepen understanding through structured, question-driven inquiry. Inspired by **[Temporal Difference](https://en.wikipedia.org/wiki/Temporal_difference_learning) (TD) Learning**'s incremental updates, it guides the LLM to explore assumptions, challenge perspectives, and uncover hidden complexities by systematically asking foundational, generative, critical, and refining questions.
+**Description**: This domain utilizes a **Socratic Method**[^8] approach to refine solutions and deepen understanding through structured, question-driven inquiry. Inspired by **Temporal Difference (TD) Learning**[^11]'s incremental updates, it guides the LLM to explore assumptions, challenge perspectives, and uncover hidden complexities by systematically asking foundational, generative, critical, and refining questions.
 
 #### Prompt Template
 ```markdown
@@ -791,6 +791,12 @@ By thoughtfully selecting and combining CPA domains, you can guide LLMs to produ
 [^3]: Bellman, R. (1957). A Markovian decision process. *Journal of Mathematical Mechanics*, 673-684. (MDP Formalization)
 
 [^4]: Sutton, R. S. (1988). Learning to predict by the methods of temporal differences. *Machine learning*, 3(1), 9-44. (TD Learning Introduction)
+
+[^5]: Markov Decision Process. (2023). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_decision_process
+
+[^6]: Evolutionary Algorithm. (2023). In *Wikipedia*. https://en.wikipedia.org/wiki/Evolutionary_algorithm
+
+[^8]: Socratic Method. (2023). In *Wikipedia*. https://en.wikipedia.org/wiki/Socratic_method
 
 ## Related Resources
 
