@@ -746,37 +746,37 @@ While each CPA domain can be applied individually to solve specific types of pro
 
 Choose the most appropriate domain based on the nature of your problem:
 
-- **Reasoning Cycle (RC)**: Best for problems requiring systematic exploration of multiple solution approaches.
-- **Adversarial Refinement (AR)**: Ideal for solutions that need critical evaluation and strengthening against potential weaknesses.
-- **Evolutionary Growth (EG)**: Effective for iterative development and improvement of solutions over multiple cycles.
-- **Dialectic Inquiry (DI)**: Powerful for uncovering hidden assumptions and exploring problems from first principles.
-- **Panel Synthesis (PS)**: Optimal for problems requiring balanced consideration of multiple stakeholder perspectives.
-- **Constraint Dynamics (CD)**: Best for navigating heavily constrained problem spaces where trade-offs are necessary.
+- **RC: Explore** - Best for problems requiring systematic exploration of multiple solution approaches.
+- **AR: Challenge** - Ideal for solutions that need critical evaluation and strengthening against potential weaknesses.
+- **EG: Evolve** - Effective for iterative development and improvement of solutions over multiple cycles.
+- **DI: Question** - Powerful for uncovering hidden assumptions and exploring problems from first principles.
+- **PS: Integrate** - Optimal for problems requiring balanced consideration of multiple stakeholder perspectives.
+- **CD: Adapt** - Best for navigating heavily constrained problem spaces where trade-offs are necessary.
 
 ### Combining Domains
 
 For complex problems, consider these effective domain combinations:
 
-1. **Exploration → Refinement**: Begin with RC to explore the solution space, then use AR to strengthen the chosen approach.
+1. **Exploration → Refinement**: Begin with **RC: Explore** to map the solution space, then use **AR: Challenge** to strengthen the chosen approach.
 
-2. **Question → Evolve**: Start with DI to challenge assumptions, then apply EG to iteratively improve the solution.
+2. **Question → Evolve**: Start with **DI: Question** to challenge assumptions, then apply **EG: Evolve** to iteratively improve the solution.
 
-3. **Explore → Integrate → Adapt**: Use RC to identify approaches, PS to balance perspectives, and CD to adapt to constraints.
+3. **Explore → Integrate → Adapt**: Use **RC: Explore** to identify approaches, **PS: Integrate** to balance perspectives, and **CD: Adapt** to navigate constraints.
 
 4. **Full CPA Workflow**: For the most complex problems, follow the sequence illustrated in the domain relationships diagram:
-   - Begin with RC to explore the solution space
-   - Apply AR, EG, and DI in parallel to refine, evolve, and question the approach
-   - Use PS to integrate the insights from previous domains
-   - Apply CD to adapt the solution to real-world constraints
+   - Begin with **RC: Explore** to map the solution space
+   - Apply **AR: Challenge**, **EG: Evolve**, and **DI: Question** in parallel to refine, evolve, and question the approach
+   - Use **PS: Integrate** to synthesize insights from previous domains
+   - Apply **CD: Adapt** to optimize the solution for real-world constraints
 
 ### Example: Software Architecture Design
 
 To design a new microservice architecture:
 
-1. Use **RC** to explore different architectural patterns (monolithic, microservices, serverless)
-2. Apply **AR** to identify security vulnerabilities and performance bottlenecks
-3. Implement **PS** to balance perspectives of security, performance, and maintainability
-4. Employ **CD** to adapt the design to infrastructure constraints and budget limitations
+1. Use **RC: Explore** to evaluate different architectural patterns (monolithic, microservices, serverless)
+2. Apply **AR: Challenge** to identify security vulnerabilities and performance bottlenecks
+3. Implement **PS: Integrate** to balance perspectives of security, performance, and maintainability
+4. Employ **CD: Adapt** to optimize the design for infrastructure constraints and budget limitations
 
 By thoughtfully selecting and combining CPA domains, you can guide LLMs to produce more thorough, well-reasoned, and robust solutions to complex problems.
 

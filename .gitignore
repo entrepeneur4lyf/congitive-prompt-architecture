@@ -1,3 +1,5 @@
 .cline/
 support/
 .clinerules
+.augmentrules
+.augment/
