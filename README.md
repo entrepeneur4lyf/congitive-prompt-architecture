@@ -95,26 +95,22 @@ Below, each domain is defined with a general description and a *template* for en
 ### Domain Relationships Diagram
 
 ```mermaid
-graph TD
-    ProblemSpace[Problem Space] --> RC[Reasoning Cycle (RC): Explore]
-    RC --> AR[Adversarial Refinement (AR): Challenge]
-    RC --> EG[Evolutionary Growth (EG): Evolve]
-    RC --> DI[Dialectic Inquiry (DI): Question]
-    AR --> PS[Panel Synthesis (PS): Integrate]
-    EG --> PS
-    DI --> PS
-    AR --> CD[Constraint Dynamics (CD): Adapt]
-    EG --> CD
-    DI --> CD
-    PS --> OS[Optimal Solution]
-    CD --> OS
+flowchart TD
+    A[Problem Space] --> B[Reasoning Cycle: Explore]
+    B --> C[Adversarial Refinement: Challenge]
+    B --> D[Evolutionary Growth: Evolve]
+    B --> E[Dialectic Inquiry: Question]
+    C --> F[Panel Synthesis: Integrate]
+    D --> F
+    E --> F
+    C --> G[Constraint Dynamics: Adapt]
+    D --> G
+    E --> G
+    F --> H[Optimal Solution]
+    G --> H
 
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef problem fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef solution fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-
-    class ProblemSpace problem;
-    class OS solution;
+    style A fill:#000000,stroke:#01579b,stroke-width:2px
+    style H fill:#000000,stroke:#2e7d32,stroke-width:2px
 ```
 
 This diagram illustrates how the six domains of CPA work together to transform a problem into an optimal solution. The process typically begins with Reasoning Cycle to explore the solution space, followed by specialized domains that refine, evolve, and question the approach. Finally, Panel Synthesis and Constraint Dynamics help integrate perspectives and adapt to constraints before arriving at the optimal solution.
